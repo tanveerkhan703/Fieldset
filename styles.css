@@ -1,0 +1,70 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+   /*Header starts Here*/
+header{
+	width: 100%;
+
+}
+nav{
+	background-color: #00adff;
+	height: 40px;
+}
+ul li{
+display: inline-block;
+padding: 10px 20px;
+
+}
+li a{
+	text-decoration: none;
+	color: white;
+}
+ul .cata{
+	font-size: 22px;
+	text-transform: capitalize;
+	float: left;
+}
+span{
+	color: red;
+}
+h2{
+	text-align: center;
+}
+  /*Header ends Here*/
+
+  /*Section Starts Here*/
+form{
+	margin: auto;
+	line-height: 20px;
+}
+
+legend{
+	font-size: 20px;
+}
+input[type$="text"]{
+	width: 700px;
+}
+input[type$="password"]{
+	width: 700px;
+}
+button{
+	height: 30px;
+	background-color: #41ade1e8;
+	color: white;
+	border: none;
+	outline: none;
+	width: 150px;
+	border-radius: 12px;
+}
+button:hover{
+	transition: ease-out;
+	background-color:transparent;
+	border: 1px solid black;
+	color: black;
+}
+button:active{
+	transition: ease-in;
+	background-color:#41ade1e8;
+}
+   /*Section Ends Here*/
